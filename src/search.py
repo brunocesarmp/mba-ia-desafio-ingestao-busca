@@ -1,8 +1,12 @@
 import os
+import warnings
+
 from dotenv import load_dotenv
 
 from langchain_postgres import PGVector
 from langchain_community.embeddings import HuggingFaceEmbeddings
+
+warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 load_dotenv()
 
@@ -37,10 +41,11 @@ PERGUNTA DO USUÁRIO:
 RESPONDA A "PERGUNTA DO USUÁRIO"
 """
 
+embeddings = HuggingFaceEmbeddings(
+    model_name="sentence-transformers/all-MiniLM-L6-v2"
+)
+
 def search_prompt(question):
-    embeddings = HuggingFaceEmbeddings(
-        model_name="sentence-transformers/all-MiniLM-L6-v2"
-    )
 
     vector_store = PGVector(
         embeddings=embeddings,
