@@ -1,0 +1,18 @@
+src/ingest.py
+  h_def6767de10d5d 2,10-11
+requirements.txt
+  h_def6767de10d5d 75-76
+src/search.py
+  h_def6767de10d5d 2-3,9-10,47
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "57a88e65e005fa67a2d795c008a77318fea94520",
+  "prompts": {},
+  "humans": {
+    "h_def6767de10d5d": {
+      "author": "Bruno César <bcesar.bruno@gmail.com>"
+    }
+  }
+}
