@@ -1,0 +1,12 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "dfed85d210aa9a124a71b53348e47881cc174560",
+  "prompts": {},
+  "humans": {
+    "h_def6767de10d5d": {
+      "author": "Bruno César <bcesar.bruno@gmail.com>"
+    }
+  }
+}
