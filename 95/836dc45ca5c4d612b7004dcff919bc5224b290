@@ -1,0 +1,20 @@
+.env
+  h_def6767de10d5d 1-5
+src/ingest.py
+  h_def6767de10d5d 2,4-7,12-13,16-42
+src/search.py
+  h_def6767de10d5d 1-12,40-63
+src/chat.py
+  h_def6767de10d5d 1-3,5-12,15-37
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "95836dc45ca5c4d612b7004dcff919bc5224b290",
+  "prompts": {},
+  "humans": {
+    "h_def6767de10d5d": {
+      "author": "Bruno César <bcesar.bruno@gmail.com>"
+    }
+  }
+}
